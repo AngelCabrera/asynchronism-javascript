@@ -1,10 +1,12 @@
 {
   "name": "asincronismo-node",
   "version": "1.0.0",
-  "description": "asincronismo con node",
+  "description": "Asynchronism w/ node",
   "main": "src/index.js",
   "scripts": {
-    "callback": "node src/callback/index.js"
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "promise": "node src/promise/index.js"
   },
   "keywords": [
     "async",
@@ -12,5 +14,8 @@
     "promises"
   ],
   "author": "Angel Cabrera",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
